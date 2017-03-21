@@ -2,11 +2,17 @@ package com.uaic.info.exam;
 
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class Exam {
 
     private List<Question> questions;
+    private int id;
+    private Disciplina disciplina;
+
+    private Date oraStart;
+    private Date oraFinal;
 
 
     public Exam() {
@@ -19,5 +25,5 @@ public class Exam {
 
     public List<Question> getQuestions() {
         return questions;
-    }   
+    }
 }
